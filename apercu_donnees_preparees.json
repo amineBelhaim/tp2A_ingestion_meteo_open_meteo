@@ -1,0 +1,29 @@
+[
+  {
+    "ville": "Paris",
+    "latitude": 48.86,
+    "longitude": 2.3599997,
+    "horodatage_mesure": "2026-06-09T08:30",
+    "temperature_c": 14.9,
+    "vent_kmh": 14.1,
+    "code_meteo": 3
+  },
+  {
+    "ville": "Berlin",
+    "latitude": 52.52,
+    "longitude": 13.4,
+    "horodatage_mesure": "2026-06-09T08:30",
+    "temperature_c": 16.7,
+    "vent_kmh": 15.8,
+    "code_meteo": 3
+  },
+  {
+    "ville": "Madrid",
+    "latitude": 40.4375,
+    "longitude": -3.6875,
+    "horodatage_mesure": "2026-06-09T08:30",
+    "temperature_c": 22.1,
+    "vent_kmh": 13.2,
+    "code_meteo": 0
+  }
+]
