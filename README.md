@@ -82,8 +82,10 @@ airflow standalone
 
 Les 2 tâches en succès :
 
-![Exécution](execution.png)
+![Exécution](execution1.png)
 
-Les logs de la transfo avec le détail par ville :
+Les logs de la transfo et extraction :
 
-![Logs](logs_transformation.png)
+![Logs](logs2.png)
+![Logs](logs1.png)
+
