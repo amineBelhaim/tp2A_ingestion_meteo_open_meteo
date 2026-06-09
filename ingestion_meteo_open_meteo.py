@@ -1,19 +1,3 @@
-"""TP 2A - Ingestion API meteo (Open-Meteo).
-
-Pipeline simple en deux temps :
-  1. extraire_meteo_brut   : appelle l'API Open-Meteo pour plusieurs villes
-                             et stocke la reponse JSON BRUTE dans un fichier.
-  2. transformer_meteo     : lit le brut, ne garde que les champs utiles
-                             et produit une structure exploitable (1 ligne / ville).
-
-Choix d'architecture (conforme au cours) :
-  - extraction et transformation sont SEPAREES (deux taches distinctes) ;
-  - la donnee brute est ecrite dans un fichier ; XCom ne transporte que le
-    CHEMIN du fichier, pas la donnee complete ;
-  - on distingue clairement ce qui vient de l'API (brut) de ce qui est
-    prepare pour le pipeline (structure aplatie, champs selectionnes).
-"""
-
 from __future__ import annotations
 
 import json
